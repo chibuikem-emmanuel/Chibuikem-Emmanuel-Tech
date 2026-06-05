@@ -6,6 +6,7 @@ import ai from "../assets/projects/vendor.PNG";
 import mobile from "../assets/projects/mobile.jpeg";
 import api from "../assets/projects/api.jpeg";
 import admin from "../assets/projects/admin.jpeg";
+import church from "../assets/projects/church screenshot.png";
 
 const projects = [
   {
@@ -30,11 +31,11 @@ const projects = [
     github: "https://github.com/yourusername/ai-dashboard",
   },
   {
-    title: "Mobile App",
-    desc: "React Native application",
-    image: mobile,
-    live: "https://your-mobile-preview.com",
-    github: "https://github.com/yourusername/mobile-app",
+    title: "Church platform",
+    desc: "A react + django app built for churches to manage their members and events",
+    image: church,
+    live: "https://living-word-absu-w69g.vercel.app/",
+    github: "https://github.com/chibuikem-emmanuel/Living_WordAbsu",
   },
   {
     title: "API System",
