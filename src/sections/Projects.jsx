@@ -6,7 +6,7 @@ import ai from "../assets/projects/vendor.PNG";
 import mobile from "../assets/projects/mobile.jpeg";
 import api from "../assets/projects/api.jpeg";
 import admin from "../assets/projects/admin.jpeg";
-import church from "../assets/projects/church screenshot.png";
+import church from "../assets/projects/church screenshot.PNG";
 
 const projects = [
   {
