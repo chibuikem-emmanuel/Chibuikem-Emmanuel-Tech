@@ -7,6 +7,7 @@ import mobile from "../assets/projects/mobile.jpeg";
 import api from "../assets/projects/api.jpeg";
 import admin from "../assets/projects/admin.jpeg";
 import church from "../assets/projects/church screenshot.PNG";
+import wed from "../assets/projects/p dan wed.PNG";
 
 const projects = [
   {
@@ -38,10 +39,10 @@ const projects = [
     github: "https://github.com/chibuikem-emmanuel/Living_WordAbsu",
   },
   {
-    title: "API System",
-    desc: "Django REST backend",
-    image: api,
-    live: "https://your-api-docs.com",
+    title: "Wedding Website",
+    desc: "A wedding website, for getting info, with Next.js and django for the backend with the dashboard",
+    image: wed,
+    live: "daniel-and-rejoice.vercel.app",
     github: "https://github.com/yourusername/api-system",
   },
   {
