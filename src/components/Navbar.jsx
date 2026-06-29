@@ -131,7 +131,7 @@ export default function Navbar() {
                   </a>
 
                   <a
-                    href="/Chibuikem-Emmanuel-Victor-resume.pdf"
+                    href="/Chibuikem_Emmanuel_Victor.pdf"
                     target="_blank"
                     onClick={() => setMoreOpen(false)}
                     className="block px-4 py-2 rounded-lg hover:bg-white/10"

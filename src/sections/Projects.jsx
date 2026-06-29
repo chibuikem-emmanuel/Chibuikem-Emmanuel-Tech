@@ -8,47 +8,48 @@ import api from "../assets/projects/api.jpeg";
 import admin from "../assets/projects/admin.jpeg";
 import church from "../assets/projects/church screenshot.PNG";
 import wed from "../assets/projects/p dan wed.PNG";
+import cbt from "../assets/projects/cbt.PNG";
 
 const projects = [
   {
     title: "Foundation school learning management system for churches and other organizations",
-    desc: "React + Django full-stack platform, for digital learning and course management, live downloadable results of students",
+    desc: "React + Django full-stack platform, for digital learning and course management, live downloadable results of students (IN USE NOW!!!)",
     image: ecommerce,
     live: "https://lwcc-absu-apf-school.onrender.com/",
     github: "https://github.com/chibuikem-emmanuel/my_lovely_school",
   },
   {
     title: "Conference management system for churches and other organizations",
-    desc: "React + Tailwind CSS + Django full-stack platform, to update attendees on conference details and manage conference events with sms and email notifications, registration with QR code and conference",
+    desc: "React + Tailwind CSS + Django full-stack platform, to update attendees on conference details and manage conference events with sms and email notifications, registration with QR code and conference (IN USE NOW!!!)",
     image: portfolio,
     live: "https://church-conf.onrender.com/",
     github: "https://github.com/chibuikem-emmanuel/church__conf",
   },
   {
     title: "Vendorly for whatsapp vendors",
-    desc: "A react + nestjs app built for whatsapp vendors to manage their products and sales",
+    desc: "A react + nestjs app built for whatsapp vendors to manage their products and sales (IN USE NOW!!!)",
     image: ai,
     live: "https://vendorly-client.vercel.app/",
     github: "https://github.com/yourusername/ai-dashboard",
   },
   {
     title: "Church platform",
-    desc: "A react + django app built for churches to manage their members and events",
+    desc: "A react + django app built for churches to manage their members and events (IN USE NOW!!!)",
     image: church,
     live: "https://living-word-absu-w69g.vercel.app/",
     github: "https://github.com/chibuikem-emmanuel/Living_WordAbsu",
   },
   {
     title: "Wedding Website",
-    desc: "A wedding website, for getting info, with Next.js and django for the backend with the dashboard",
+    desc: "A wedding website, for getting info, with Next.js and django for the backend with the dashboard (IN USE NOW!!!)",
     image: wed,
     live: "daniel-and-rejoice.vercel.app",
-    github: "https://github.com/yourusername/api-system",
+    github: "https://github.com/chibuikem-emmanuel/Daniel-and-Bride",
   },
   {
-    title: "Admin Dashboard",
-    desc: "Data visualization system",
-    image: admin,
+    title: "University CBT for students test and preparation",
+    desc: "A mobile app for students to practice and prepare for their examinations, consist of pass questions(Project in progress)",
+    image: cbt,
     live: "https://your-admin-dashboard.com",
     github: "https://github.com/yourusername/admin-dashboard",
   },

@@ -1,16 +1,16 @@
 import { motion } from "framer-motion";
 
 const videos = [
-  { title: "Going back to the roots", src: "/videos/my-vlog1.mp4" },
-  { title: "Vendorly collaboration", src: "/videos/my-vlog2.mp4" },
-  { title: "React Tips", src: "/videos/vlog3.mp4" },
+  { title: "Details about the student management system", src: "/videos/my-vlog1.mp4" },
+  { title: "How the conference app helped the second conference and still counting", src: "/videos/WhatsApp Video 2026-06-14 at 15.58.41.mp4"},
+  { title: "Some of my student's testimonies and their achievements after my tutoring", src: "/videos/TGIF! Your success story could be next.Hear their stories and take the action that can change yo.mp4" },
 ];
 
 export default function Vlog() {
   return (
     <section id="vlog" className="py-16 px-4">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">
-        My Vlog
+        Testimonies & Achievements
       </h2>
 
       <motion.div
