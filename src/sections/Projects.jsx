@@ -9,6 +9,9 @@ import admin from "../assets/projects/admin.jpeg";
 import church from "../assets/projects/church screenshot.PNG";
 import wed from "../assets/projects/p dan wed.PNG";
 import cbt from "../assets/projects/cbt.PNG";
+import arch from "../assets/projects/kon.PNG";
+import ecomht from "../assets/projects/ecomht.PNG";
+import seka from "../assets/projects/seka.PNG";
 
 const projects = [
   {
@@ -33,6 +36,13 @@ const projects = [
     github: "https://github.com/yourusername/ai-dashboard",
   },
   {
+    title: "Ecommerce website for mobile phones and accessories",
+    desc: "A HTML + CSS + JavaScript app built for managing mobile phone and accessory sales",
+    image: ecomht,
+    live: "https://chibuikem-emmanuel.github.io/html-ecom/index.html",
+    github: "https://github.com/chibuikem-emmanuel/html-ecom/",
+  },
+  {
     title: "Church platform",
     desc: "A react + django app built for churches to manage their members and events (IN USE NOW!!!)",
     image: church,
@@ -45,6 +55,20 @@ const projects = [
     image: wed,
     live: "daniel-and-rejoice.vercel.app",
     github: "https://github.com/chibuikem-emmanuel/Daniel-and-Bride",
+  },
+  {
+    title: "An architecture firm website",
+    desc: "A website for an architecture firm to showcase their projects and services, built with boostrap + HTML + CSS + JavaScript with a dashboard for managing projects and services",
+    image: arch,
+    live: "https://arch-kbzt.onrender.com/",
+    github: "https://github.com/chibuikem-emmanuel/arch",
+  },
+  {
+    title: "An Ecommerce website for jewelries and accessories",
+    desc: "An ecommerce website for jewelries and accessories, built with Tailwind + django  for managing products and orders",
+    image: seka,
+    live: "https://ecommerce-website-with-django-and-hdra.onrender.com/",
+    github: "https://github.com/chibuikem-emmanuel/Ecommerce-website-with-django-and-tailwind",
   },
   {
     title: "University CBT for students test and preparation",

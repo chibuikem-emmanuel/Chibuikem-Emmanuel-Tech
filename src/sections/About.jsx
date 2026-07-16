@@ -1,32 +1,141 @@
 import { motion } from "framer-motion";
+import HeroImage from "../assets/hero-image2.jpeg";
 
 export default function About() {
   return (
-    <section id="about" className="flex justify-center items-center px-6 py-20">
-      <motion.div
-        className="max-w-2xl glass p-6 text-center"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-      >
-        <h2 className="text-3xl font-bold">About Me</h2>
-        <p className="mt-4">
-     Software Developer with experience building web and mobile applications that solve real-world problems and improve how people interact with technology.
- 
-I work across the JavaScript ecosystem, using technologies such as React, React Native, Next.js, Node.js, Django, TypeScript, and modern databases to develop scalable, user-focused solutions. My passion lies in transforming ideas into products that deliver value to businesses, organizations, and communities.
- 
-Some of the projects I've worked on include Confy, a conference registration and event management platform designed to help churches and organizations streamline attendee registration, communication, and event operations. The platform is already being adopted by multiple conferences, helping organizers reduce manual processes and improve event experiences.
- 
-I've also developed NGO management platforms featuring secure authentication, donation processing through Paystack, user onboarding, newsletter subscriptions, and engagement tools. In addition, I have experience building multi-step registration systems, administrative dashboards, and business-focused applications that improve operational efficiency.
- 
-Recently, I have been expanding into mobile application development with React Native, building cross-platform applications while strengthening my skills in software architecture, API integration, performance optimization, and user experience design.
- 
-Beyond development, I enjoy learning, teaching, and sharing knowledge. I'm constantly exploring new technologies, refining my problem-solving skills, and building products that can create meaningful impact at scale.
- 
-Core Technologies: React, React Native, Next.js, Node.js, Django, JavaScript, TypeScript, HTML, CSS, REST APIs, PostgreSQL, MySQL, Git, and modern web technologies.
- 
-I'm always open to connecting with developers, founders, organizations, and teams building innovative products and solutions.
-        </p>
-      </motion.div>
+    <section
+      id="about"
+      className="w-full py-20 px-5 sm:px-8 lg:px-12"
+    >
+      <div className="max-w-7xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 60 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: .8 }}
+          viewport={{ once: true }}
+          className="glass rounded-3xl overflow-hidden p-6 sm:p-8 lg:p-12"
+        >
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-20 items-center">
+
+            {/* IMAGE */}
+
+            <motion.div
+              initial={{ opacity: 0, x: -60 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: .8 }}
+              className="flex justify-center"
+            >
+              <div className="relative w-full max-w-md">
+
+                {/* Glow */}
+
+                <div className="absolute -inset-4 bg-blue-500/15 blur-3xl rounded-3xl"></div>
+
+                <img
+                  src={HeroImage}
+                  alt="Chibuikem Emmanuel Victor"
+                  className="
+                    relative
+                    w-full
+                    aspect-[4/5]
+                    object-cover
+                    rounded-3xl
+                    shadow-2xl
+                    border
+                    border-white/10
+                  "
+                />
+              </div>
+            </motion.div>
+
+            {/* CONTENT */}
+
+            <motion.div
+              initial={{ opacity: 0, x: 60 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: .8 }}
+            >
+              <span className="text-blue-400 uppercase tracking-[5px] font-semibold">
+                About Me
+              </span>
+
+              <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+                Full Stack Engineer
+                <br />
+                Building modern digital experiences.
+              </h2>
+
+              <p className="mt-8 text-base sm:text-lg leading-8 opacity-90">
+                Software Developer with experience building web and mobile
+                applications that solve real-world problems and improve how
+                people interact with technology.
+              </p>
+
+              <p className="mt-6 text-base sm:text-lg leading-8 opacity-90">
+                I work across the JavaScript ecosystem using React,
+                React Native, Next.js, Node.js, Django, TypeScript,
+                PostgreSQL and MySQL to build scalable software,
+                administrative dashboards, payment systems, conference
+                platforms and business applications.
+              </p>
+
+              <p className="mt-6 text-base sm:text-lg leading-8 opacity-90">
+                Beyond development, I enjoy teaching, mentoring,
+                project management and exploring AI Engineering,
+                Machine Learning and emerging technologies.
+              </p>
+
+              {/* Small Info Cards */}
+
+              <div className="grid grid-cols-2 gap-4 mt-10">
+
+                <div className="glass rounded-xl p-5">
+                  <h3 className="text-blue-400 text-2xl font-bold">
+                    5+
+                  </h3>
+
+                  <p className="mt-2 text-sm">
+                    Years Experience
+                  </p>
+                </div>
+
+                <div className="glass rounded-xl p-5">
+                  <h3 className="text-blue-400 text-2xl font-bold">
+                    20+
+                  </h3>
+
+                  <p className="mt-2 text-sm">
+                    Projects
+                  </p>
+                </div>
+
+                <div className="glass rounded-xl p-5">
+                  <h3 className="text-blue-400 text-2xl font-bold">
+                    20+
+                  </h3>
+
+                  <p className="mt-2 text-sm">
+                    Students Trained
+                  </p>
+                </div>
+
+                <div className="glass rounded-xl p-5">
+                  <h3 className="text-blue-400 text-2xl font-bold">
+                    100%
+                  </h3>
+
+                  <p className="mt-2 text-sm">
+                    Commitment
+                  </p>
+                </div>
+
+              </div>
+
+            </motion.div>
+
+          </div>
+        </motion.div>
+      </div>
     </section>
   );
 }
