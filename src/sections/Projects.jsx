@@ -53,7 +53,7 @@ const projects = [
     title: "Wedding Website",
     desc: "A wedding website, for getting info, with Next.js and django for the backend with the dashboard (IN USE NOW!!!)",
     image: wed,
-    live: "daniel-and-rejoice.vercel.app",
+    live: "https://daniel-and-rejoice.vercel.app",
     github: "https://github.com/chibuikem-emmanuel/Daniel-and-Bride",
   },
   {
