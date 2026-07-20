@@ -56,7 +56,7 @@ export default function Contact() {
           initial={{ opacity: 0, scale: .8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: .6 }}
-          className="glass rounded-3xl p-10 text-center max-w-md"
+          className="glass rounded-3xl p-10 text-center max-w-md w-full border border-white/10 bg-[#0b1220]/90 backdrop-blur-xl"
         >
           <motion.div
             animate={{
@@ -69,11 +69,11 @@ export default function Contact() {
             <FaCheckCircle className="mx-auto text-7xl text-green-500" />
           </motion.div>
 
-          <h2 className="text-4xl font-bold mt-6">
+          <h2 className="text-4xl font-bold mt-6 text-white">
             Message Sent!
           </h2>
 
-          <p className="mt-5 opacity-80 leading-7">
+          <p className="mt-5  text-white/80 leading-7">
             Thank you for contacting me.
 
             <br />
@@ -105,11 +105,11 @@ export default function Contact() {
         viewport={{ once: true }}
         className="glass rounded-3xl overflow-hidden"
       >
-        <div className="grid lg:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
 
           {/* LEFT */}
 
-          <div className="p-8 lg:p-14 flex flex-col justify-center">
+          <div className="p-6 sm:p-8 lg:p-14 flex flex-col justify-center">
 
             <span className="uppercase tracking-[4px] text-blue-400 font-semibold">
               Contact Me
