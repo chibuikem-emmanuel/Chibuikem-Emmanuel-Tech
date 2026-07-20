@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import ThemeToggle from "./ThemeToggle";
-import Logo from "../assets/logo mi.png";
+import Logo from "../assets/pre log.png";
 import { FaBars, FaTimes, FaChevronDown } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
