@@ -12,6 +12,7 @@ import cbt from "../assets/projects/cbt.PNG";
 import arch from "../assets/projects/kon.PNG";
 import ecomht from "../assets/projects/ecomht.PNG";
 import seka from "../assets/projects/seka.PNG";
+import ibea from "../assets/projects/ibea--.PNG";
 
 const projects = [
   {
@@ -71,11 +72,11 @@ const projects = [
     github: "https://github.com/chibuikem-emmanuel/Ecommerce-website-with-django-and-tailwind",
   },
   {
-    title: "University CBT for students test and preparation",
-    desc: "A mobile app for students to practice and prepare for their examinations, consist of pass questions(Project in progress)",
-    image: cbt,
-    live: "https://your-admin-dashboard.com",
-    github: "https://github.com/yourusername/admin-dashboard",
+    title: "A non governmental organization for helping the community",
+    desc: "Built with HTML,CSS AND JAVASCRIPT...ability to navigate through pages",
+    image: ibea,
+    live: "https://ibeayifa.vercel.app/",
+    github: "https://github.com/chibuikem-emmanuel/ibeayifa",
   },
 ];
 
