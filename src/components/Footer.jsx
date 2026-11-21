@@ -85,7 +85,7 @@ export default function Footer() {
             {/* Resume */}
 
             <a
-              href="/Chibuikem-Emmanuel-Victor-Resume.pdf"
+              href="/Chibuikem Emmanuel Victor - Software Engineer CV (2).pdf"
               download
               className="mt-8 flex items-center gap-3 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full transition"
             >
