@@ -50,50 +50,47 @@ export default function About() {
 
             {/* CONTENT */}
 
-            <motion.div
+<motion.div
               initial={{ opacity: 0, x: 60 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: .8 }}
+              transition={{ duration: 0.8 }}
             >
               <span className="text-blue-400 uppercase tracking-[5px] font-semibold">
                 About Me
               </span>
 
               <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-                Full Stack Engineer
+                Full-Stack Software Engineer
                 <br />
-                Building modern digital experiences.
+                Architecting scalable web &amp; cloud systems.
               </h2>
 
               <p className="mt-8 text-base sm:text-lg leading-8 opacity-90">
-                Software Developer with experience building web and mobile
-                applications that solve real-world problems and improve how
-                people interact with technology.
+                Full-Stack Engineer with 8+ years of experience designing and
+                shipping production web and mobile applications that streamline
+                business operations and scale reliably.
               </p>
 
               <p className="mt-6 text-base sm:text-lg leading-8 opacity-90">
-                I work across the JavaScript ecosystem using React,
-                React Native, Next.js, Node.js, Django, TypeScript,
-                PostgreSQL and MySQL to build scalable software,
-                administrative dashboards, payment systems, conference
-                platforms and business applications.
+                Working across the Python and JavaScript/TypeScript ecosystems
+                using Django, Node.js, React, React Native, Next.js,
+                PostgreSQL, and MySQL, I architect multi-tenant SaaS platforms,
+                payment systems, administrative dashboards, conference
+                platforms, and commerce applications.
               </p>
 
               <p className="mt-6 text-base sm:text-lg leading-8 opacity-90">
-                Beyond development, I enjoy teaching, mentoring,
-                project management and exploring AI Engineering,
-                Machine Learning and emerging technologies.
+                Beyond shipping code, I lead engineering teams, mentor
+                upcoming developers, manage technical projects, and explore
+                applied AI Engineering and emerging cloud technologies.
               </p>
 
               {/* Small Info Cards */}
-
               <div className="grid grid-cols-2 gap-4 mt-10">
-
                 <div className="glass rounded-xl p-5">
                   <h3 className="text-blue-400 text-2xl font-bold">
-                    5+
+                    8+
                   </h3>
-
                   <p className="mt-2 text-sm">
                     Years Experience
                   </p>
@@ -103,34 +100,29 @@ export default function About() {
                   <h3 className="text-blue-400 text-2xl font-bold">
                     20+
                   </h3>
-
                   <p className="mt-2 text-sm">
-                    Projects
+                    Production Projects
                   </p>
                 </div>
 
                 <div className="glass rounded-xl p-5">
                   <h3 className="text-blue-400 text-2xl font-bold">
-                    20+
+                    30+
                   </h3>
-
                   <p className="mt-2 text-sm">
-                    Students Trained
+                    Developers Mentored
                   </p>
                 </div>
 
                 <div className="glass rounded-xl p-5">
                   <h3 className="text-blue-400 text-2xl font-bold">
-                    100%
+                    99.9%
                   </h3>
-
                   <p className="mt-2 text-sm">
-                    Commitment
+                    System Uptime
                   </p>
                 </div>
-
               </div>
-
             </motion.div>
 
           </div>
