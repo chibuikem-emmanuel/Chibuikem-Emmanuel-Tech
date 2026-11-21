@@ -68,19 +68,19 @@ export default function Footer() {
 
             {/* Name */}
 
-            <h2 className="mt-6 text-3xl font-bold">
-              Chibuikem Emmanuel Victor
-            </h2>
+<h2 className="mt-6 text-3xl font-bold">
+  Chibuikem Emmanuel Victor
+</h2>
 
-            <p className="mt-2 text-blue-400 font-medium">
-              FullStack Engineer • AI Engineer • Project Manager
-            </p>
+<p className="mt-2 text-blue-400 font-medium">
+  Full-Stack Engineer • AI Engineer • Technical Project Manager
+</p>
 
-            <p className="mt-5 max-w-xl opacity-80 leading-8">
-              I design and build scalable web and mobile
-              applications that solve real-world problems
-              and deliver meaningful user experiences.
-            </p>
+<p className="mt-5 max-w-xl opacity-80 leading-8">
+  I architect and build scalable web, mobile, and AI-enabled
+  applications that streamline business workflows and deliver
+  reliable user experiences.
+</p>
 
             {/* Resume */}
 
