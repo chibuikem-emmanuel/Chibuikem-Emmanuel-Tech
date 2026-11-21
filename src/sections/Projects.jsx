@@ -13,6 +13,10 @@ import arch from "../assets/projects/kon.PNG";
 import ecomht from "../assets/projects/ecomht.PNG";
 import seka from "../assets/projects/seka.PNG";
 import ibea from "../assets/projects/ibea--.PNG";
+import aut from "../assets/projects/aut.PNG";
+import grv from "../assets/projects/grv.PNG";
+import tht from "../assets/projects/tht.PNG";
+import djw from "../assets/projects/djw.PNG";
 
 const projects = [
   {
@@ -37,6 +41,27 @@ const projects = [
     github: "https://github.com/yourusername/ai-dashboard",
   },
   {
+    title: "Fintech & Investment Management Platform",
+    desc: "A nextjs + django app built for fintech and investment management (IN USE NOW!!!)",
+    image: grv,
+    live: "https://www.groveassetsltd.com/",
+    github: "https://github.com/chibuikem-emmanuel/buchi-frnt",
+  },
+  {
+    title: "A commercial retail store for clothing and  street fashion",
+    desc: "A nextjs + django app built for managing a commercial retail store for clothing and street fashion (IN USE NOW!!!)",
+    image: tht,
+    live: "https://zawear.vercel.app/",
+    github: "https://github.com/chibuikem-emmanuel/thriftza",
+  },
+  {
+    title: "Automated Trading system for forex and crypto",
+    desc: "A nextjs + django app built for forex and crypto traders to automate their trading strategies (IN USE NOW!!!)",
+    image: aut,
+    live: "https://automated-trading-merchant.vercel.app/",
+    github: "https://github.com/chibuikem-emmanuel/forexapp",
+  },
+  {
     title: "Ecommerce website for mobile phones and accessories",
     desc: "A HTML + CSS + JavaScript app built for managing mobile phone and accessory sales",
     image: ecomht,
@@ -53,9 +78,9 @@ const projects = [
   {
     title: "Wedding Website",
     desc: "A wedding website, for getting info, with Next.js and django for the backend with the dashboard (IN USE NOW!!!)",
-    image: wed,
-    live: "https://daniel-and-rejoice.vercel.app",
-    github: "https://github.com/chibuikem-emmanuel/Daniel-and-Bride",
+    image: djw,
+    live: "https://danjoy.vercel.app/",
+    github: "https://github.com/chibuikem-emmanuel/dandy",
   },
   {
     title: "An architecture firm website",
